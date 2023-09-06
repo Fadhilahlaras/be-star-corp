@@ -140,6 +140,12 @@
 			<artifactId>log4j-over-slf4j</artifactId>
 			<version>1.7.25</version>
 		</dependency>
+
+		<dependency>
+        	<groupId>mysql</groupId>
+        	<artifactId>mysql-connector-java</artifactId>
+        	<version>8.0.28</version> <!-- Use the correct version -->
+    	</dependency>
 	</dependencies>
 	<build>
 		<plugins>
