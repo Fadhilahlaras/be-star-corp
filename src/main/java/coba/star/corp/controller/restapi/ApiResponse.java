@@ -1,4 +1,4 @@
-package coba.daily.you.controller.restapi;
+package coba.star.corp.controller.restapi;
 
 import java.time.LocalDateTime;
 

@@ -1,4 +1,4 @@
-package coba.daily.you.controller.mvc;
+package coba.star.corp.controller.mvc;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping(value = "/")
 public class BaseMvcController {
-    //    dashboard
+    // dashboard
     @GetMapping("dashboard")
     public String dashboard() {
         return "dashboard/index";
@@ -32,10 +32,12 @@ public class BaseMvcController {
     public String manageProduct() {
         return "product/product";
     }
+
     @GetMapping("manage")
     public String manage() {
         return "product/manage";
     }
+
     @GetMapping("make-up")
     public String makeUp() {
         return "product/makeup";
@@ -55,6 +57,7 @@ public class BaseMvcController {
     public String baru() {
         return "baru";
     }
+
     @GetMapping("search")
     public String search() {
         return "product/search";
