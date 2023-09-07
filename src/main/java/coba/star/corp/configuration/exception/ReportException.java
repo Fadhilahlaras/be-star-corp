@@ -1,4 +1,4 @@
-package coba.daily.you.configuration.exception;
+package coba.star.corp.configuration.exception;
 
 public class ReportException extends Exception {
 	private static final long serialVersionUID = -4687377061480077553L;

@@ -1,4 +1,4 @@
-package coba.daily.you.configuration.exception;
+package coba.star.corp.configuration.exception;
 
 import java.util.Date;
 
