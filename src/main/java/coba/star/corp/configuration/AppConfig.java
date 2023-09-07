@@ -1,4 +1,4 @@
-package coba.daily.you.configuration;
+package coba.star.corp.configuration;
 
 import org.modelmapper.Conditions;
 import org.modelmapper.ModelMapper;

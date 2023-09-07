@@ -1,4 +1,4 @@
-package coba.daily.you.configuration;
+package coba.star.corp.configuration;
 
 import nz.net.ultraq.thymeleaf.LayoutDialect;
 import org.springframework.context.annotation.Bean;
