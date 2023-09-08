@@ -1,4 +1,4 @@
-package coba.daily.you.model.dto;
+package coba.star.corp.model.dto;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package coba.daily.you.model.entity;
+package coba.star.corp.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;

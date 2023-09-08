@@ -1,7 +1,7 @@
-package coba.daily.you.model.entity;
+package coba.star.corp.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import coba.daily.you.model.dto.ProductDto;
+import coba.star.corp.model.dto.ProductDto;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -9,7 +9,7 @@ import javax.persistence.Entity;
 import javax.validation.constraints.NotNull;
 
 @Entity
-@Table(name= Product.TABLE_NAME)
+@Table(name = Product.TABLE_NAME)
 @Data
 public class Product {
     public static final String TABLE_NAME = "t_product";
@@ -33,6 +33,4 @@ public class Product {
     @Column(name = "id_category", nullable = false)
     private Integer idCategory;
 
-
 }
-

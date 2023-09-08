@@ -1,11 +1,11 @@
-package coba.daily.you.model.entity;
+package coba.star.corp.model.entity;
 
 import lombok.Data;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name= Payment.TABLE_NAME)
+@Table(name = Payment.TABLE_NAME)
 @Data
 public class Payment {
     public static final String TABLE_NAME = "t_payment";
@@ -21,4 +21,3 @@ public class Payment {
     @Column(name = "bukti_url")
     private String file;
 }
-
