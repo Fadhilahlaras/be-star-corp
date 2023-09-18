@@ -1,7 +1,7 @@
-package coba.daily.you.util.exception;
+package coba.star.corp.util.exception;
 
 public class Helper {
-    public static boolean notNull(Object obj){
+    public static boolean notNull(Object obj) {
         return obj != null;
     }
 }

@@ -1,4 +1,4 @@
-package coba.daily.you.util.exception;
+package coba.star.corp.util.exception;
 
 import org.springframework.http.HttpStatus;
 

@@ -1,4 +1,4 @@
-package coba.daily.you.report;
+package coba.star.corp.report;
 
 import net.sf.jasperreports.engine.JRDataSource;
 import net.sf.jasperreports.engine.JRException;
