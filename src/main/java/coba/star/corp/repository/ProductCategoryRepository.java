@@ -1,6 +1,6 @@
-package coba.daily.you.repository;
+package coba.star.corp.repository;
 
-import coba.daily.you.model.entity.ProductCategory;
+import coba.star.corp.model.entity.ProductCategory;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,7 +1,7 @@
-package coba.daily.you.service;
+package coba.star.corp.service;
 
-import coba.daily.you.model.entity.ProductCategory;
-import coba.daily.you.repository.ProductCategoryRepository;
+import coba.star.corp.model.entity.ProductCategory;
+import coba.star.corp.repository.ProductCategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,8 +11,8 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
     private ProductCategoryRepository productCategoryRepository;
 
     @Override
-    public ProductCategory saveProductCategoryMaterDetail(ProductCategory productCategory){
-     productCategory = productCategoryRepository.save(productCategory);
-     return productCategory;
+    public ProductCategory saveProductCategoryMaterDetail(ProductCategory productCategory) {
+        productCategory = productCategoryRepository.save(productCategory);
+        return productCategory;
     }
 }
